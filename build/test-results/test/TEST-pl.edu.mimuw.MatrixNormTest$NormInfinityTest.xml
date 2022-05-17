@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.mimuw.MatrixNormTest$NormInfinityTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-17T01:18:20" hostname="bartek-blaszak" time="0.616">
+  <properties/>
+  <testcase name="testVector()" classname="pl.edu.mimuw.MatrixNormTest$NormInfinityTest" time="0.039"/>
+  <testcase name="testFullMatrices()" classname="pl.edu.mimuw.MatrixNormTest$NormInfinityTest" time="0.041"/>
+  <testcase name="testAntiDiagonal()" classname="pl.edu.mimuw.MatrixNormTest$NormInfinityTest" time="0.039"/>
+  <testcase name="testDiagonal()" classname="pl.edu.mimuw.MatrixNormTest$NormInfinityTest" time="0.001"/>
+  <testcase name="testSparseMatrices()" classname="pl.edu.mimuw.MatrixNormTest$NormInfinityTest" time="0.575"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
