@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pl.edu.mimuw.MatrixNormTest$NormOneTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-17T01:18:20" hostname="bartek-blaszak" time="0.637">
+<testsuite name="pl.edu.mimuw.MatrixNormTest$NormOneTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-05-17T21:01:09" hostname="bartek-blaszak" time="0.041">
   <properties/>
-  <testcase name="testVector()" classname="pl.edu.mimuw.MatrixNormTest$NormOneTest" time="0.038"/>
-  <testcase name="testFullMatrices()" classname="pl.edu.mimuw.MatrixNormTest$NormOneTest" time="0.039"/>
-  <testcase name="testAntiDiagonal()" classname="pl.edu.mimuw.MatrixNormTest$NormOneTest" time="0.043"/>
+  <testcase name="testFullMatrices()" classname="pl.edu.mimuw.MatrixNormTest$NormOneTest" time="0.036"/>
+  <testcase name="testVector()" classname="pl.edu.mimuw.MatrixNormTest$NormOneTest" time="0.036"/>
+  <testcase name="testAntiDiagonal()" classname="pl.edu.mimuw.MatrixNormTest$NormOneTest" time="0.037"/>
   <testcase name="testDiagonal()" classname="pl.edu.mimuw.MatrixNormTest$NormOneTest" time="0.003"/>
-  <testcase name="testSparseMatrices()" classname="pl.edu.mimuw.MatrixNormTest$NormOneTest" time="0.597"/>
+  <testcase name="testSparseMatrices()" classname="pl.edu.mimuw.MatrixNormTest$NormOneTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

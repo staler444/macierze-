@@ -123,4 +123,5 @@ public class IdentityMt extends Mt {
             pom[i][i] = 1;
         return pom;
     }
+
 }

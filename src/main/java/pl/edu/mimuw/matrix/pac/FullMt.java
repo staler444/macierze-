@@ -56,8 +56,4 @@ public class FullMt extends Mt {
                 pom[i][j] = tab[i][j];
         return pom;
     }
-
-    public String toString(){
-        return "FullMt:" + Double.toString(n) + " " + Double.toString(m);
-    }
 }

@@ -235,13 +235,41 @@ public abstract class Mt implements IDoubleMatrix {
     public abstract double[][] data();
 
     public String toString(){
-        String res = "";
+        String res[] = new String[n];
         for(int i = 0; i < n; i++)
-        {
-            for(int j = 0; j < m; j++)
-                res += Double.toString(getVal(i, j)) + " ";
-            res += "\n";
+            res[i] = "";
+
+        for(int i = 0; i < n; i++){
+            double pom = get(i, 0);
+            int ile = 1;
+            for(int j = 1; j < m; j++){
+                if(get(i, j) == pom){
+                    ile++;
+                    continue;
+                }
+                if(ile >= 3)
+                    res[i] += " " + pom + "..." + pom;
+                else
+                    while(ile > 0){
+                        res[i]+=" " + pom;
+                        ile--;
+                    }
+                pom = get(i, j);
+                ile = 1;
+            }
+            if(ile >= 3){
+                res[i] += " " + pom + "..." + pom;
+                ile = 0;
+            }
+            while(ile > 0){
+                res[i]+=" " + pom;
+                ile--;
+            }
         }
-        return res;
+        
+        String pomer = "";
+        for(int i = 0; i < n; i++)
+            pomer += res[i]+"\n";
+        return pomer;
     }
 }
